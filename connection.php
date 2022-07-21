@@ -1,7 +1,7 @@
 <?php
-$dbhost = "maracasevent.mysql.database.azure.com:3306";
-$dbuser = "bloodstike@maracasevent";
-$dbpass = "WAELwael1998@";
+$dbhost = "localhost:3306";
+$dbuser = "root";
+$dbpass = "root";
 $dbname = "noto";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
